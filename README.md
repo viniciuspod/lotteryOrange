@@ -10,19 +10,19 @@ A aplicação possui os seguintes endpoints:
 ### /lottery_tickets
 
 -Json de consumo
-
+```
 	{
 	  "bettor": {
 	    "email": "dants@gmail.com"
 	  }
 	}
-
+```
 - Método: GET
 - Descrição: Retorna uma lista de bilhetes de loteria existentes para o email.
 - Parâmetros:
   - Nenhum.
 - Exemplo de resposta:
-
+```
 	[
 		{
 			"id": 5,
@@ -47,13 +47,13 @@ A aplicação possui os seguintes endpoints:
 			}
 		}
 	]
-	
+```	
 - Método: POST
 - Descrição: Cria um novo bilhete de loteria.
 - Parâmetros:
   - Nenhum.
 - Exemplo de resposta:
-
+```
 	{
 		"id": 8,
 		"bet1": "98",
@@ -65,7 +65,7 @@ A aplicação possui os seguintes endpoints:
 			"email": "dantas@gmail.com"
 		}
 	}
-	
+```	
 ## Contribuição
 
 Contribuições para este projeto são bem-vindas. Se você encontrar algum problema, tiver alguma sugestão ou quiser adicionar um novo recurso, sinta-se à vontade para abrir uma nova issue ou enviar um pull request.
